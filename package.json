@@ -1,11 +1,11 @@
 {
   "name": "peerjs-server",
   "version": "1.0.0",
-  "main": "index.js",
+  "main": "server.js",
   "scripts": {
-    "start": "peerjs --port $PORT"
+    "start": "node server.js"
   },
   "dependencies": {
-    "peer": "^0.6.1"
+    "peer": "^1.4.10"
   }
 }
